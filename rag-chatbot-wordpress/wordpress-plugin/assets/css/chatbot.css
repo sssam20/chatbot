@@ -1,0 +1,39 @@
+#chatbot-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#chatbot-messages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.user-message, .bot-message {
+    margin-bottom: 10px;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+
+.user-message {
+    text-align: right;
+    color: blue;
+}
+
+.bot-message {
+    text-align: left;
+    color: green;
+}
+
+#chatbot-input {
+    width: 70%;
+    padding: 5px;
+}
+
+#chatbot-send {
+    width: 25%;
+    padding: 5px;
+}
